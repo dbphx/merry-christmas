@@ -76,16 +76,13 @@
     </div>
 
     <!-- Vandiep -->
-    <div id="copyright">© by vandiep</div>
+    <div id="copyright">©</div>
 
     <div id="canvas-container"></div>
     <video class="input_video" style="display:none"></video>
     <canvas id="camera-preview"></canvas>
 
     <script>
-        // ==========================================
-        // 1. RESOURCES CONFIG Vandiep
-        // ==========================================
         const MUSIC_URL = "./audio.mp3";
         let bgMusic = new Audio(MUSIC_URL);
         bgMusic.loop = true; bgMusic.volume = 1.0;
@@ -130,9 +127,6 @@
             gift: createCustomTexture('gift_red')
         };
 
-        // ==========================================
-        // 2. SYSTEM CONFIG Vandiep
-        // ==========================================
         const CONFIG = {
             goldCount: 2000,
             redCount: 300,
